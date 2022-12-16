@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import joblib
 import pydeck as pdk
 
 # 구별로 의류수거함 위치 출력
