@@ -141,7 +141,7 @@ page_names_to_funcs[selected_page]()
 
 # chart_data = pd.read_csv('2주차_데이터셋.csv', encoding='cp949')
 # st.line_chart(data=chart_data, y='여성인구')
-
+!pip install plotly
 import plotly.express as px
 chart_data = pd.read_csv('자치구별_배출량.csv', encoding='cp949')
 fig = px.bar(chart_data, x='자치구', y='폐의류 배출량', text_auto=True, title='자치구별 폐의류 배출량')
